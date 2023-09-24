@@ -2,7 +2,9 @@ import pt from 'prop-types'
 const Card = ({ card }) => {
     let { image, title, catagory, catagory_bg, card_bg, text_color } = card;
     return (
-        <div className='rounded-lg overflow-hidden '>
+        <div 
+        
+        className='rounded-lg overflow-hidden '>
             <figure>
                 <img className='w-full' src={image} alt="" />
             </figure>
