@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    font-family: 'Inter', sans-serif;
+}
+.active {
+    color: #FF444A;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.brr {
+    border: 1px solid red;
+}
+
+.brb {
+    border: 1px solid blue;
+}
