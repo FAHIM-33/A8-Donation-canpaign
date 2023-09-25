@@ -50,7 +50,7 @@
     {
         "id": 5,
         "image" : "/Health.png",
-        "title" : "Clean water for children",
+        "title" : "Health is wealth",
         "catagory" : "Health",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 800.00,
@@ -62,7 +62,7 @@
     {
         "id": 6,
         "image" : "/Food.png",
-        "title" : "Better Food for Everyone",
+        "title" : "Food for everyone",
         "catagory" : "Food",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 170.00,
@@ -74,7 +74,7 @@
     {
         "id": 7,
         "image" : "/Clothing.png",
-        "title" : "Used Clothing Drive",
+        "title" : "Clothing Drive",
         "catagory" : "Clothing",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 120.00,
@@ -86,7 +86,7 @@
     {
         "id": 8,
         "image" : "/Education.png",
-        "title" : "Good education",
+        "title" : "Education proper",
         "catagory" : "Education",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 400.00,
@@ -98,7 +98,7 @@
     {
         "id": 9,
         "image" : "/Health.png",
-        "title" : "Clean water for children",
+        "title" : "Clean water for everyone",
         "catagory" : "Health",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 500.00,
@@ -110,7 +110,7 @@
     {
         "id": 10.00,
         "image" : "/Food.png",
-        "title" : "Better Food for Everyone",
+        "title" : "Remove hunger",
         "catagory" : "Food",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 610.00,
@@ -122,7 +122,7 @@
     {
         "id": 11,
         "image" : "/Clothing.png",
-        "title" : "Used Clothing Drive",
+        "title" : "Free cloathing",
         "catagory" : "Clothing",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 150.00,
@@ -134,7 +134,7 @@
     {
         "id": 12,
         "image" : "/Food.png",
-        "title" : "Better Food for Everyone",
+        "title" : "Nutritious food",
         "catagory" : "Food",
         "description" : "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price" : 100.00,

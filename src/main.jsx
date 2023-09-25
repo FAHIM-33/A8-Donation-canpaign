@@ -8,12 +8,14 @@ import Home from './Pages/Home/Home';
 import Donation from './Pages/Donations/Donation';
 import Stats from './Pages/Stats/Stats';
 import Details from './Pages/Donations/Details';
+import ErrorPage from './Pages/ErrorPage';
+
 
 const route = createBrowserRouter([
   {
     path:"/",
     element: <MainLayout></MainLayout>,
-    errorElement: <div>This is Error</div>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -33,7 +35,8 @@ const route = createBrowserRouter([
         path: "/details/:id",
         element: <Details></Details>,
         loader: ({params})=> fetch('/data.json')
-      }
+      },
+
       
     ]
   }

@@ -1,13 +1,14 @@
 import { useLoaderData } from "react-router-dom";
 import { Cell, Pie, PieChart } from "recharts";
 import { getLS } from "../../Utility/localStorage";
-
 const Stats = () => {
     let donates = useLoaderData()
     let ls = getLS()
     let donated = donates.filter(obj => ls.includes(obj.id))
-    let allTotal = donates.reduce((acc, curr) => { return acc + curr.price }, 0)
-    let donatedTotal = donated.reduce((acc, curr) => { return acc + curr.price }, 0)
+    // let allTotal = donates.reduce((acc, curr) => { return acc + curr.price }, 0)
+    // let donatedTotal = donated.reduce((acc, curr) => { return acc + curr.price }, 0)
+    let allTotal = donates.length;
+    let donatedTotal = donated.length;
     let donatePercent = (donatedTotal * 100) / allTotal
     let leftToDonate = 100 - donatePercent
     console.log(donatePercent, leftToDonate)
