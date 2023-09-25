@@ -5,7 +5,7 @@ const DonatedCard = ({ donates }) => {
 
 
     return (
-        <div className='rounded-lg flex flex-col mx-auto w-fit md:w-full md:flex-row overflow-hidden brr'
+        <div className='rounded-lg flex flex-col mx-auto w-fit md:w-full md:flex-row overflow-hidden'
             style={{ backgroundColor: card_bg }}>
             <figure className='w-full overflow-hidden  z-10'>
                 <img className='w-full h-full block' src={image} alt="" />
