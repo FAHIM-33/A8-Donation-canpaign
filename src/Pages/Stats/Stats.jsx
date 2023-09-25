@@ -34,7 +34,7 @@ const Stats = () => {
         );
     };
     return (
-        <div className="w-fit mx-auto">
+        <div className="w-fit mx-auto mb-48">
             <PieChart width={600} height={600}>
                 <Pie
                     className="text-4xl font-bold"
@@ -55,6 +55,16 @@ const Stats = () => {
                     ))}
                 </Pie>
             </PieChart>
+            <div className="flex justify-between">
+                <div className="flex items-center gap-4">
+                    <p className="text-regular text-lg ">Your Donation</p>
+                    <div className="h-3 w-24 bg-[#00C49F] rounded-sm"></div>
+                </div>
+                <div className="flex items-center gap-4">
+                    <p className="text-regular text-lg ">Total Donation</p>
+                    <div className="h-3 w-24 bg-[#FF444A] rounded-sm"></div>
+                </div>
+            </div>
         </div>
     );
 };
