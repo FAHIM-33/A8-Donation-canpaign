@@ -13,7 +13,7 @@ const Cardsss = ({ text }) => {
     }, [])
 
     return (
-        <div className="grid grid-cols-4 gap-6 justify-center px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center px-8">
             {
                 searchedDonates.length > 0 ?
                 searchedDonates.map(donate => <Card

@@ -25,8 +25,8 @@ const Donation = () => {
     }
 
     return (
-        <div className="mb-48 px-8">
-            <div className="grid grid-cols-2 justify-center gap-6 mt-20">
+        <div className="mb-0 md:mb-48 px-0 md:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-center gap-6 mt-10 md:mt-20">
                 {
                     sliced.map(object => <DonatedCard
                         key={object.id}
