@@ -1,0 +1,18 @@
+.banner{
+    position: relative;
+}
+.banner::before{
+    content: '';
+    background-image: url('/banner.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+    
+    z-index: -1;
+    
+}

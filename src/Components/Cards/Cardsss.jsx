@@ -9,7 +9,7 @@ const Cardsss = () => {
             .then(data => setDonatesss(data))
     }, [])
     return (
-        <div className="grid grid-cols-4 gap-6 justify-center">
+        <div className="grid grid-cols-4 gap-6 justify-center px-8">
             {
                 donatesss.map(donate => <Card
                     key={donate.id}
