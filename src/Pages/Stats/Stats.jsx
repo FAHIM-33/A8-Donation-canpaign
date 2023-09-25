@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-import { Cell, Pie, PieChart } from "recharts";
+import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
 import { getLS } from "../../Utility/localStorage";
 const Stats = () => {
     let donates = useLoaderData()
@@ -11,7 +11,6 @@ const Stats = () => {
     let donatedTotal = donated.length;
     let donatePercent = (donatedTotal * 100) / allTotal
     let leftToDonate = 100 - donatePercent
-    console.log(donatePercent, leftToDonate)
     let dataArr = [
         {
             name: "Donated",
@@ -35,35 +34,37 @@ const Stats = () => {
         );
     };
     return (
-        <div className="w-fit mx-auto mb-48">
-            <PieChart width={600} height={600}>
-                <Pie
-                    className="text-4xl font-bold"
-                    label={renderCustomizedLabel}
-                    data={dataArr}
-                    color="#000000"
-                    dataKey="money"
-                    cx="50%"
-                    cy="50%"
-                    outerRadius={220}
-                    fill="#8884d8"
-                >
-                    {dataArr.map((entry, index) => (
-                        <Cell
-                            key={`cell-${index}`}
-                            fill={colors[index % colors.length]}
-                        />
-                    ))}
-                </Pie>
-            </PieChart>
-            <div className="flex justify-between">
-                <div className="flex items-center gap-4">
-                    <p className="text-regular text-lg ">Your Donation</p>
-                    <div className="h-3 w-24 bg-[#00C49F] rounded-sm"></div>
+        <div className="w-full md:w-fit mx-auto mb-48 py-12">
+            <ResponsiveContainer width="100%" height={400}>
+                <PieChart className="" width={200} height={200}>
+                    <Pie
+                        className="text-4xl font-bold"
+                        label={renderCustomizedLabel}
+                        data={dataArr}
+                        color="#000000"
+                        dataKey="money"
+                        cx="50%"
+                        cy="50%"
+                        outerRadius={190}
+                        fill="#8884d8"
+                    >
+                        {dataArr.map((entry, index) => (
+                            <Cell
+                                key={`cell-${index}`}
+                                fill={colors[index % colors.length]}
+                            />
+                        ))}
+                    </Pie>
+                </PieChart>
+            </ResponsiveContainer>
+            <div className="flex justify-center gap-8 md:gap-14 mt-8">
+                <div className="flex items-center gap-2 md:gap-4">
+                    <p className="text-regular text-sm md:text-lg ">Your Donation</p>
+                    <div className="h-3 w-12 md:w-24 bg-[#00C49F] rounded-sm"></div>
                 </div>
-                <div className="flex items-center gap-4">
-                    <p className="text-regular text-lg ">Total Donation</p>
-                    <div className="h-3 w-24 bg-[#FF444A] rounded-sm"></div>
+                <div className="flex items-center gap-2">
+                <p className="text-regular text-sm md:text-lg ">Total Donation</p>
+                    <div className="h-3 w-12 md:w-24 bg-[#FF444A] rounded-sm"></div>
                 </div>
             </div>
         </div>
