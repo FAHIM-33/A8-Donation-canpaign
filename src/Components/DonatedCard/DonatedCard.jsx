@@ -19,7 +19,7 @@ const DonatedCard = ({ donates }) => {
                 >{catagory}</p>
                 <h2 className='font-semibold text-2xl'>{title}</h2>
                 <h2
-                    className='font-semibold flex-grow'
+                    className='font-semibold flex-grow mb-4 md:mb-5'
                     style={{ color: text_color }}
                 >${price}</h2>
                 <NavLink to={`/details/${id}`}>
