@@ -14,7 +14,7 @@ const DonatedCard = ({ donates }) => {
                 className='p-6 w-full flex flex-col'>
 
                 <p
-                    className="font-medium text-sm rounded-sm w-fit py-1 px-2 mb-1"
+                    className="font-medium text-sm rounded-sm w-max py-1 px-2 mb-1"
                     style={{ color: text_color, backgroundColor: catagory_bg }}
                 >{catagory}</p>
                 <h2 className='font-semibold text-2xl'>{title}</h2>

@@ -3,7 +3,7 @@
 }
 .banner::before{
     content: '';
-    background-image: url('/banner.png');
+    background-image: url('/bannerLayer.png');
     background-position: center;
     background-size: cover;
     position: absolute;
