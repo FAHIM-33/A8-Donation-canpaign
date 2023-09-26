@@ -47,6 +47,7 @@ const Stats = () => {
                         cy="50%"
                         outerRadius={190}
                         fill="#8884d8"
+                        labelLine={false}
                     >
                         {dataArr.map((entry, index) => (
                             <Cell
@@ -70,5 +71,5 @@ const Stats = () => {
         </div>
     );
 };
-
+//jdkfl
 export default Stats;
